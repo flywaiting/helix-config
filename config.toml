@@ -5,3 +5,28 @@ bufferline = "multiple"
 line-number = "relative"
 color-modes = true
 cursorline = true
+
+[editor.statusline]
+left = [
+  "mode",
+  # "separator",
+  "spacer",
+  "version-control",
+  "spinner",
+  "read-only-indicator",
+  "file-modification-indicator",
+  "register",
+]
+right = [
+  "diagnostics",
+  "selections",
+  "position",
+  "total-line-numbers",
+  # position-percentage,
+]
+# separator = "|"
+
+[editor.cursor-shape]
+insert = "bar"
+# normal = "block"
+# select = "underline"
