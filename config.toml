@@ -1,0 +1,7 @@
+theme = "catppuccin_frappe"
+
+[editor]
+bufferline = "multiple"
+line-number = "relative"
+color-modes = true
+cursorline = true
