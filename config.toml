@@ -30,3 +30,12 @@ right = [
 insert = "bar"
 # normal = "block"
 # select = "underline"
+
+# [editor.whitespace.render]
+# space = "all"
+[editor.whitespace.characters]
+space = "·"
+
+[editor.indent-guides]
+render = true
+character = "╎"
