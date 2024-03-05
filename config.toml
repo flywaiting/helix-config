@@ -39,3 +39,9 @@ space = "·"
 [editor.indent-guides]
 render = true
 character = "╎"
+
+[keys.normal]
+"C-S-p" = "command_palette"
+C-v = "paste_clipboard_after"
+C-c = "yank_to_clipboard"
+"A-s" = ["normal_mode", ":w"]
