@@ -45,3 +45,4 @@ character = "╎"
 C-v = "paste_clipboard_after"
 C-c = "yank_to_clipboard"
 "A-s" = ["normal_mode", ":w"]
+"C-/" = ["toggle_comments"]
