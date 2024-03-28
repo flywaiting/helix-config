@@ -11,6 +11,7 @@ size = 16
 [keyboard]
 bindings = [
   { key = "Slash", mods = "Control", chars = "\u001B[47;5u" },
+  { key = "P", mods = "Control|Shift", chars = "\u001B[80;6u" },
 ]
 
 # Colors (Nord)
