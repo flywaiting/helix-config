@@ -11,7 +11,17 @@ size = 16
 [keyboard]
 bindings = [
   { key = "Slash", mods = "Control", chars = "\u001B[47;5u" },
+  { key = "Tab", mods = "Control", chars = "\u001B[27;5u" },
+  # { key = "Tab", mods = "Control", chars = "\u001B[27;5;9~" },
+  
   { key = "P", mods = "Control|Shift", chars = "\u001B[80;6u" },
+  { key = "Tab", mods = "Control|Shift", chars = "\u001B[27;6;9~" },
+
+  { key = "S", mods = "Alt", chars = "\u001Bs" },
+  { key = "W", mods = "Alt", chars = "\u001Bw" },
+  { key = "Q", mods = "Alt", chars = "\u001Bq" },
+  { key = "Slash", mods = "Alt", chars = "\u001B/" },
+
 ]
 
 # Colors (Nord)

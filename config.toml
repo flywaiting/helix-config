@@ -45,5 +45,13 @@ C-P = "command_palette"
 C-p = "file_picker"
 C-v = "paste_clipboard_after"
 C-c = "yank_to_clipboard"
-"A-s" = ["normal_mode", ":w"]
+C-tab = ":buffer-next"
 "C-/" = ["toggle_comments"]
+A-s = ":w"
+A-w = ":buffer-close"
+A-q = ":quit"
+"A-/" = "toggle_comments"
+
+[keys.insert]
+A-s = ["normal_mode", ":w"]
+
