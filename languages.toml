@@ -2,3 +2,7 @@
 # Try using [language.config.check] instead of [language-server.rust-analyzer.config.check]
 [language-server.rust-analyzer.config.check]
 command = "clippy"
+
+[[language]]
+name = "typescript"
+indent = { tab-width = 4, unit = "    " }
