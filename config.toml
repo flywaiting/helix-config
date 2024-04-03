@@ -56,4 +56,5 @@ A-q = ":quit"
 
 [keys.insert]
 A-s = ["normal_mode", ":w"]
+C-p = "file_picker"
 
