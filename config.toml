@@ -5,6 +5,7 @@ bufferline = "multiple"
 line-number = "relative"
 color-modes = true
 cursorline = true
+completion-timeout = 100
 
 [editor.statusline]
 left = [
@@ -57,4 +58,5 @@ A-q = ":quit"
 [keys.insert]
 A-s = ["normal_mode", ":w"]
 C-p = "file_picker"
+C-v = "paste_clipboard_after"
 
